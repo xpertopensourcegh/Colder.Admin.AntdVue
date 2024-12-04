@@ -35,6 +35,7 @@ namespace Coldairarrow.Api
                     var value = aProperty.GetValue(JsonExtention.DefaultJsonSetting);
                     aProperty.SetValue(options.SerializerSettings, value);
                     var z;
+                    var x;
                 });
             });
             services.AddHttpContextAccessor();
